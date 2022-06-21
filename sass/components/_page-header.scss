@@ -1,0 +1,21 @@
+
+.page-header {
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__link {
+    padding-top: 23px;
+    padding-bottom: 23px;
+
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-decoration: none;
+
+    color: $mainTextColor;
+  }
+}

@@ -1,0 +1,49 @@
+.hero {
+  padding-top: 71px;
+  padding-bottom: 138px;
+
+  background-color: #ECFFEB;
+
+  &__descr {
+    padding-left: 4px;
+    margin: 0;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    width: 496px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 1;
+
+    color: #55A630;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 57px;
+
+    width: 419px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &__button {
+    margin: 0;
+    padding: 20px 40px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  &__button:first-child {
+    background-color: #55A630;
+  }
+}

@@ -20,6 +20,15 @@ body {
   margin: 0;
 }
 
+.section-title {
+  margin-top: 176px;
+  margin-bottom: 76px;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 0.8;
+  text-align: center;
+}
+
 .page-header__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,6 +53,9 @@ body {
   padding-top: 71px;
   padding-bottom: 138px;
   background-color: #ECFFEB;
+  background-image: url(/images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: top 28px right 96px;
 }
 
 .hero__descr {
@@ -73,15 +85,16 @@ body {
   line-height: 23px;
 }
 
-.hero__button {
-  margin: 0;
-  padding: 20px 40px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 26px;
+.trainee__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.hero__button:first-child {
-  background-color: #55A630;
+.trainee__image {
+  display: block;
+  width: 100 / 2;
 }
 /*# sourceMappingURL=main.css.map */

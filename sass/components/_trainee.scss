@@ -1,0 +1,11 @@
+
+.trainee {
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__image {
+    display: block;
+    width: 100 / 2;
+  }
+}

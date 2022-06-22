@@ -3,6 +3,9 @@
   padding-bottom: 138px;
 
   background-color: #ECFFEB;
+  background-image: url(/images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: top 28px right 96px;
 
   &__descr {
     padding-left: 4px;
@@ -33,17 +36,5 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-  }
-
-  &__button {
-    margin: 0;
-    padding: 20px 40px;
-
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-  }
-  &__button:first-child {
-    background-color: #55A630;
   }
 }

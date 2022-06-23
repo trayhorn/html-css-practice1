@@ -1,15 +1,17 @@
 .hero {
+  position: relative;
   padding-top: 71px;
   padding-bottom: 138px;
 
   background-color: #ECFFEB;
-  background-image: url(/images/hero-img.jpg);
+  background-image: url(/images/hero-image.png);
   background-repeat: no-repeat;
   background-position: top 28px right 96px;
+  background-size: 681px 556px;
 
   &__descr {
     padding-left: 4px;
-    margin: 0;
+    margin: 0 0 7px 0;
 
     font-weight: 600;
     font-size: 20px;
@@ -36,5 +38,33 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
+  }
+
+  &__button-main {
+    margin: 0 20px 0 0;
+    padding: 20px 40px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+
+    color: #FFF;
+    background-color: #55A630;
+    border: none;
+  }
+
+  &__button-reserved {
+    margin: 0;
+    padding: 20px 58px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+
+    color: #55A630;
+    background-color: #ECFFEB;
+    border: 1px solid #55A630;
   }
 }

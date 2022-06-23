@@ -1,0 +1,40 @@
+.board {
+  &__list {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #fff;
+    box-shadow: -2px 2px 20px rgba(66, 66, 66, 0.15);
+    border-radius: 4px;
+  }
+
+  &__number {
+    margin: 0 0 15px 0;
+
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1;
+    text-align: center;
+
+    color: #55A630;
+  }
+
+  &__text {
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1.22;
+    text-align: center;
+  }
+}
+
+.board {
+  position: absolute;
+  bottom: -189px;
+  left: 120px;
+  right: 120px;
+}

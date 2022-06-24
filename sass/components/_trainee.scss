@@ -1,6 +1,7 @@
 .trainee {
   margin-top: 300px;
 
+
   &__box {
     display: flex;
     flex-wrap: wrap;
@@ -8,10 +9,9 @@
   }
 
   &__text {
-    position: absolute;
-    top: 0;
-
     margin-left: 28px;
+    margin-top: 35px;
+    margin-bottom: 0;
 
     font-weight: 600;
     font-size: 32px;
@@ -22,13 +22,59 @@
   }
 
   &__item {
-    position: relative;
     height: 260px;
+    overflow: hidden;
 
-    background: linear-gradient(90deg, rgba(123,255,138,0.7654412106639531) 0%, rgba(9,121,14,1) 75%, rgba(0,212,255,1) 100%);
+    &:hover .hidden-box {
+      transform: translateY(0);
+    }
 
     &:nth-child(-n + 2) {
       margin-bottom: 55px;
+      width: 570px;
     }
+    &:nth-child(1) {
+      background-image: linear-gradient(to right rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)),
+      url(/images/picture-1.jpg);
+    }
+    &:nth-child(2) {
+      background-image: linear-gradient(to right rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)),
+      url(/images/picture-2.jpg);
+    }
+    &:nth-child(3) {
+      width: 364px;
+      background-image: linear-gradient(to right rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)),
+      url(/images/picture-3.jpg);
+    }
+    &:nth-child(4) {
+      width: 364px;
+      background-image: linear-gradient(to right rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)),
+      url(/images/picture-4.jpg);
+    }
+    &:nth-child(5) {
+      width: 364px;
+      background-image: linear-gradient(to right rgba(35, 35, 35, 0.5), rgba(35, 35, 35, 0.5)),
+      url(/images/picture-5.jpg);
+    }
+  }
+}
+
+
+.hidden-box {
+  margin-left: 22px;
+  margin-top: 60px;
+
+  transform: translateY(150%);
+  transition: transform 250ms linear;
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.17;
+
+    color: #FFFFFF;
   }
 }

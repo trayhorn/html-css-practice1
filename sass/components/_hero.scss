@@ -52,6 +52,11 @@
     color: #FFF;
     background-color: #55A630;
     border: none;
+    transition: transform 250ms linear;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__button-reserved {
@@ -66,5 +71,10 @@
     color: #55A630;
     background-color: #ECFFEB;
     border: 1px solid #55A630;
+    transition: transform 250ms linear;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }

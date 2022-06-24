@@ -17,5 +17,9 @@
     text-decoration: none;
 
     color: $mainTextColor;
+
+    &:hover {
+      color: #55A630;
+    }
   }
 }

@@ -308,7 +308,7 @@ body {
   color: rgba(66, 66, 66, 0.8);
 }
 
-.gallery-card__button {
+.gallery-card__button, .gallery-card__button-bottom {
   padding-top: 15px;
   padding-bottom: 15px;
   display: block;
@@ -317,6 +317,9 @@ body {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.3;
+}
+
+.gallery-card__button {
   background-color: #4340B4;
   border: none;
   color: #FFFFFF;
@@ -331,14 +334,6 @@ body {
 }
 
 .gallery-card__button-bottom {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  display: block;
-  width: 100%;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.3;
   background-color: rgba(83, 81, 196, 0.1);
   border: none;
   color: #4340B4;
@@ -443,8 +438,84 @@ body {
   color: #FFFFFF;
 }
 
-.form {
-  margin-top: 70px;
+.models {
+  padding-top: 175px;
+  padding-bottom: 0;
+}
+
+.models__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.models__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.models__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.15;
+  letter-spacing: -0.4px;
+  color: #55A630;
+}
+
+.models__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 629px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.24;
+  color: rgba(66, 66, 66, 0.8);
+}
+
+.models__button {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 25px 95px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 1.13;
+  color: #FFFFFF;
+  background-color: #55A630;
+  border: none;
+  cursor: pointer;
+}
+
+.special {
+  padding-top: 166px;
+  padding-bottom: 175px;
+}
+
+.special__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.special__image {
+  display: block;
 }
 
 .form__wrapper {

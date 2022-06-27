@@ -1,0 +1,14 @@
+
+.special {
+  padding-top: 166px;
+  padding-bottom: 175px;
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__image {
+    display: block;
+  }
+}

@@ -1,0 +1,24 @@
+.page-footer {
+  display: flex;
+  padding-top: 175px;
+
+  &__wrapper {
+    padding-left: 69px;
+    width: 100%;
+    background-color: #424242;
+  }
+}
+
+.footer-nav {
+  display: flex;
+}
+.footer-nav-main {
+  &__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0.94;
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.8);
+  }
+}

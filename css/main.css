@@ -349,6 +349,60 @@ body {
   background-color: rgba(0, 168, 150, 0.1);
 }
 
+.about-us {
+  padding-top: 177px;
+}
+
+.about-us__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-us__text-container {
+  padding-left: 121px;
+}
+
+.about-us__minititle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.12;
+  color: #858585;
+}
+
+.about-us__title {
+  margin-top: 30px;
+  margin-bottom: 75px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.07;
+  letter-spacing: -0.4px;
+}
+
+.about-us__span {
+  color: #55A630;
+}
+
+.about-us__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.16;
+}
+
+.about-us__link {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1.12;
+  text-decoration: none;
+  color: #55A630;
+}
+
 .trainee {
   padding-top: 177px;
 }
